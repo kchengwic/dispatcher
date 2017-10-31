@@ -1,0 +1,43 @@
+# Please list the tasks with the following attributes and under [TASK]
+# filename | frequency | time | description
+# filename: the .py file location
+# frequency: how frequent that the task needs to be executed. 
+# You can specify the time in seconds (S), minutes (MIN), hours (H), days (D), weeks (W), months (M)
+# time: the start time for the task
+# description (optional): any description for the task
+
+[TASK]
+filename=C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
+frequency=1min
+time=
+description=dummy task 1 for unit testing
+
+[TASK]
+filename=C:\Users\kcheng\PycharmProjects\first_project\dummy_task2.py
+frequency=2min
+time=17:17
+description=dummy task 2 for unit testing
+
+[TASK]
+filename=C:my_task3.py
+frequency=5min
+time=09:45
+description=no such file exists
+
+[TASK]
+filename=C:\Users\kcheng\PycharmProjects\first_project\dummy_task3.py
+frequency=5min
+time=
+description=test frequency
+
+[TASK]
+filename=C:\Users\kcheng\PycharmProjects\first_project\dummy_task2.py
+frequency=
+time=09:45
+description=missing frequency to fail the test
+
+[TASK]
+filename=C:\Users\kcheng\PycharmProjects\first_project\dummy_task2.py
+frequency=
+time=*&^*&TDG
+description=invalid time
