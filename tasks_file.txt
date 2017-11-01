@@ -26,7 +26,7 @@ description=no such file exists
 
 [TASK]
 filename=C:\Users\kcheng\PycharmProjects\first_project\dummy_task3.py
-frequency=5min
+frequency=1min
 time=
 description=test frequency
 

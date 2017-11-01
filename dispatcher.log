@@ -1,90 +1,247 @@
-2017-10-31 17:27:46,496 - MainThread - __main__ - INFO - Dispatcher started
-2017-10-31 17:27:46,496 - MainThread - __main__ - INFO - Created a Dispatcher
-2017-10-31 17:27:46,496 - MainThread - genericPreprocessor - INFO - Created a GenericPreprocessor
-2017-10-31 17:27:46,496 - MainThread - metricManager - INFO - Created a MetricManager
-2017-10-31 17:27:46,496 - MainThread - notifier - DEBUG - Created a Notifier
-2017-10-31 17:27:46,575 - MainThread - notifier - INFO - Getting List of Channels
-2017-10-31 17:27:46,670 - MainThread - notifier - INFO - Get Users
-2017-10-31 17:27:46,756 - MainThread - executor - INFO - Created an Executor
-2017-10-31 17:27:46,756 - MainThread - __main__ - INFO - Dispatcher is running
-2017-10-31 17:27:46,756 - watcher    - __main__ - INFO - Last modified time for tasks input file: 2017-10-31 17:15:55.063202
-2017-10-31 17:27:46,756 - MainThread - genericPreprocessor - INFO - Start preprocessing...
-2017-10-31 17:27:46,756 - MainThread - genericPreprocessor - INFO - Found 6 tasks
-2017-10-31 17:27:46,756 - MainThread - task - INFO - The frequency of this task is 1min
-2017-10-31 17:27:46,756 - MainThread - task - INFO - Created a Task
+2017-10-31 18:30:32,549 - MainThread - __main__ - INFO - Dispatcher started
+2017-10-31 18:30:32,549 - MainThread - __main__ - INFO - Created a Dispatcher
+2017-10-31 18:30:32,549 - MainThread - genericPreprocessor - INFO - Created a GenericPreprocessor
+2017-10-31 18:30:32,549 - MainThread - metricManager - INFO - Created a MetricManager
+2017-10-31 18:30:32,549 - MainThread - notifier - DEBUG - Created a Notifier
+2017-10-31 18:30:32,640 - MainThread - notifier - INFO - Getting List of Channels
+2017-10-31 18:30:32,716 - MainThread - notifier - INFO - Get Users
+2017-10-31 18:30:32,805 - MainThread - executor - INFO - Created an Executor
+2017-10-31 18:30:32,805 - MainThread - __main__ - INFO - Dispatcher is running
+2017-10-31 18:30:32,806 - watcher    - __main__ - INFO - Last modified time for tasks input file: 2017-10-31 17:15:55.063202
+2017-10-31 18:30:32,806 - MainThread - genericPreprocessor - INFO - Start preprocessing...
+2017-10-31 18:30:32,806 - MainThread - genericPreprocessor - INFO - Found 6 tasks
+2017-10-31 18:30:32,808 - MainThread - task - INFO - The frequency of this task is 1min
+2017-10-31 18:30:32,808 - MainThread - task - INFO - Created a Task
 filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
 frequency: 1min
-time: 17:27
+time: 18:30
 Validity: Good
-2017-10-31 17:27:46,757 - MainThread - task - INFO - The frequency of this task is 2min
-2017-10-31 17:27:46,759 - MainThread - task - INFO - Created a Task
+2017-10-31 18:30:32,808 - MainThread - task - INFO - The frequency of this task is 2min
+2017-10-31 18:30:32,809 - MainThread - task - INFO - Created a Task
 filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task2.py
 frequency: 2min
 time: 17:17
 Validity: Good
-2017-10-31 17:27:46,759 - MainThread - task - INFO - The frequency of this task is 5min
-2017-10-31 17:27:46,759 - MainThread - task - INFO - Created a Task
+2017-10-31 18:30:32,809 - MainThread - task - INFO - The frequency of this task is 5min
+2017-10-31 18:30:32,811 - MainThread - task - INFO - Created a Task
 filename: C:my_task3.py
 frequency: 5min
 time: 09:45
 Validity: Invaild filename: C:my_task3.py
-2017-10-31 17:27:46,759 - MainThread - task - INFO - The frequency of this task is 5min
-2017-10-31 17:27:46,759 - MainThread - task - INFO - Created a Task
+2017-10-31 18:30:32,811 - MainThread - task - INFO - The frequency of this task is 5min
+2017-10-31 18:30:32,811 - MainThread - task - INFO - Created a Task
 filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task3.py
 frequency: 5min
-time: 17:27
+time: 18:30
 Validity: Good
-2017-10-31 17:27:46,760 - MainThread - task - INFO - The frequency of this task is 
-2017-10-31 17:27:46,760 - MainThread - task - INFO - Created a Task
+2017-10-31 18:30:32,811 - MainThread - task - INFO - The frequency of this task is 
+2017-10-31 18:30:32,811 - MainThread - task - INFO - Created a Task
 filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task2.py
 frequency: 
 time: 09:45
 Validity: Invaild frequency: 
-2017-10-31 17:27:46,760 - MainThread - task - INFO - The frequency of this task is 
-2017-10-31 17:27:46,760 - MainThread - task - INFO - Created a Task
+2017-10-31 18:30:32,811 - MainThread - task - INFO - The frequency of this task is 
+2017-10-31 18:30:32,812 - MainThread - task - INFO - Created a Task
 filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task2.py
 frequency: 
 time: *&^*&TDG
 Validity: Invaild time: *&^*&TDG
-2017-10-31 17:27:46,760 - MainThread - genericPreprocessor - INFO - Good tasks count: 3
-2017-10-31 17:27:46,760 - MainThread - genericPreprocessor - INFO - Invalid tasks count: 3
-2017-10-31 17:27:46,762 - Thread-1_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:02
-2017-10-31 17:27:46,762 - Thread-2_dummy_task2.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task2.py: 23:49:14
-2017-10-31 17:27:46,762 - MainThread - genericPostprocessor - INFO - Start postprocessing
-2017-10-31 17:27:46,762 - Thread-4_dummy_task3.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task3.py: 0:00:02
-2017-10-31 17:27:46,763 - dummy_task1.py_monitor - metricManager - INFO - Assigned monitor manager to task: dummy_task1.py
-2017-10-31 17:27:46,763 - dummy_task2.py_monitor - metricManager - INFO - Assigned monitor manager to task: dummy_task2.py
-2017-10-31 17:27:46,763 - dummy_task3.py_monitor - metricManager - INFO - Assigned monitor manager to task: dummy_task3.py
-2017-10-31 17:27:46,763 - MainThread - notifier - INFO - Notifying the receive of tasks from the input file to Slack
-2017-10-31 17:27:46,765 - MainThread - notifier - INFO - Sending message to Slack: Below are the summary of the new tasks assigned to the dispatcher to channel: risk and member: kcheng
-2017-10-31 17:27:47,102 - MainThread - genericPostprocessor - INFO - Finished postprocessing
-2017-10-31 17:27:48,763 - Thread-1_dummy_task1.py - task - INFO - Executing Task...
-Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
-PID: 12404
-Execution scheduled: 2017-10-31 17:27:48.757000
-Thread: Thread-1_dummy_task1.py
-2017-10-31 17:27:48,765 - Thread-4_dummy_task3.py - task - INFO - Executing Task...
+2017-10-31 18:30:32,812 - MainThread - genericPreprocessor - INFO - Good tasks count: 3
+2017-10-31 18:30:32,812 - MainThread - genericPreprocessor - INFO - Invalid tasks count: 3
+2017-10-31 18:30:32,812 - Thread-1_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:02
+2017-10-31 18:30:32,812 - Thread-2_dummy_task2.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task2.py: 22:46:28
+2017-10-31 18:30:32,812 - Thread-4_dummy_task3.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task3.py: 0:00:02
+2017-10-31 18:30:32,812 - MainThread - genericPostprocessor - INFO - Start postprocessing
+2017-10-31 18:30:32,813 - dummy_task1.py_monitor - metricManager - INFO - Assigned monitor manager to task: dummy_task1.py
+2017-10-31 18:30:32,813 - dummy_task2.py_monitor - metricManager - INFO - Assigned monitor manager to task: dummy_task2.py
+2017-10-31 18:30:32,813 - MainThread - notifier - INFO - Notifying the receive of tasks from the input file to Slack
+2017-10-31 18:30:32,813 - dummy_task3.py_monitor - metricManager - INFO - Assigned monitor manager to task: dummy_task3.py
+2017-10-31 18:30:32,815 - MainThread - notifier - INFO - Sending message to Slack: Below are the summary of the new tasks assigned to the dispatcher to channel: risk and member: kcheng
+2017-10-31 18:30:33,161 - MainThread - genericPostprocessor - INFO - Finished postprocessing
+2017-10-31 18:30:34,815 - Thread-4_dummy_task3.py - task - INFO - Executing Task...
 Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task3.py
-PID: 6780
-Execution scheduled: 2017-10-31 17:27:48.760000
+PID: 8240
+Execution scheduled: 2017-10-31 18:30:34.811000
 Thread: Thread-4_dummy_task3.py
-2017-10-31 17:27:49,168 - dummy_task1.py_monitor - metricManager - INFO - Recording the usages for process pid=12404
-2017-10-31 17:27:49,168 - dummy_task3.py_monitor - metricManager - INFO - Recording the usages for process pid=6780
-2017-10-31 17:27:50,420 - Thread-1_dummy_task1.py - task - INFO - The task ended unexpectedly...
-2017-10-31 17:27:50,420 - Thread-1_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:58
-2017-10-31 17:27:50,582 - dummy_task1.py_monitor - metricManager - INFO - Process pid=12404 ended. Usages for this run is recorded
-2017-10-31 17:27:50,582 - dummy_task1.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task1.py, pid=12404
-2017-10-31 17:27:51,115 - dummy_task1.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_17_28_48_dummy_task1.py_12404.png
-2017-10-31 17:27:51,117 - dummy_task1.py_monitor - notifier - INFO - Sending message to Slack: Task is INTERRUPTED. Please investigate. to channel: risk and member: kcheng
-2017-10-31 17:28:48,437 - Thread-1_dummy_task1.py - task - INFO - Executing Task...
+2017-10-31 18:30:34,815 - Thread-1_dummy_task1.py - task - INFO - Executing Task...
 Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
-PID: 8132
-Execution scheduled: 2017-10-31 17:28:48.757000
+PID: 12096
+Execution scheduled: 2017-10-31 18:30:34.808000
 Thread: Thread-1_dummy_task1.py
-2017-10-31 17:28:48,838 - dummy_task1.py_monitor - metricManager - INFO - Recording the usages for process pid=8132
-2017-10-31 17:28:49,980 - Thread-1_dummy_task1.py - task - INFO - The task ended unexpectedly...
-2017-10-31 17:28:49,980 - Thread-1_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:59
-2017-10-31 17:28:50,043 - dummy_task1.py_monitor - metricManager - INFO - Process pid=8132 ended. Usages for this run is recorded
-2017-10-31 17:28:50,043 - dummy_task1.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task1.py, pid=8132
-2017-10-31 17:28:50,486 - dummy_task1.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_17_29_48_dummy_task1.py_8132.png
-2017-10-31 17:28:50,487 - dummy_task1.py_monitor - notifier - INFO - Sending message to Slack: Task is INTERRUPTED. Please investigate. to channel: risk and member: kcheng
+2017-10-31 18:30:35,220 - dummy_task3.py_monitor - metricManager - INFO - Recording the usages for process pid=8240
+2017-10-31 18:30:35,220 - dummy_task1.py_monitor - metricManager - INFO - Recording the usages for process pid=12096
+2017-10-31 18:30:36,440 - Thread-1_dummy_task1.py - task - INFO - The task ended unexpectedly...
+2017-10-31 18:30:36,440 - Thread-1_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:58
+2017-10-31 18:30:36,631 - dummy_task1.py_monitor - metricManager - INFO - Process pid=12096 ended. Usages for this run is recorded
+2017-10-31 18:30:36,631 - dummy_task1.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task1.py, pid=12096
+2017-10-31 18:30:37,154 - dummy_task1.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_18_31_34_dummy_task1.py_12096.png
+2017-10-31 18:30:37,154 - dummy_task1.py_monitor - notifier - INFO - Sending message to Slack: Task is INTERRUPTED. Please investigate. to channel: risk and member: kcheng
+2017-10-31 18:30:42,808 - watcher    - __main__ - INFO - Tasks input file got modified
+2017-10-31 18:30:42,808 - watcher    - __main__ - INFO - Last modified time for tasks input file: 2017-10-31 18:30:41.863837
+2017-10-31 18:30:42,808 - MainThread - genericPreprocessor - INFO - Start preprocessing...
+2017-10-31 18:30:42,808 - MainThread - genericPreprocessor - INFO - Found 6 tasks
+2017-10-31 18:30:42,809 - MainThread - task - INFO - The frequency of this task is 1min
+2017-10-31 18:30:42,809 - MainThread - task - INFO - Created a Task
+filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
+frequency: 1min
+time: 18:30
+Validity: Good
+2017-10-31 18:30:42,809 - MainThread - task - INFO - The frequency of this task is 2min
+2017-10-31 18:30:42,809 - MainThread - task - INFO - Created a Task
+filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task2.py
+frequency: 2min
+time: 17:17
+Validity: Good
+2017-10-31 18:30:42,809 - MainThread - task - INFO - The frequency of this task is 5min
+2017-10-31 18:30:42,809 - MainThread - task - INFO - Created a Task
+filename: C:my_task3.py
+frequency: 5min
+time: 09:45
+Validity: Invaild filename: C:my_task3.py
+2017-10-31 18:30:42,809 - MainThread - task - INFO - The frequency of this task is 1min
+2017-10-31 18:30:42,809 - MainThread - task - INFO - Created a Task
+filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task3.py
+frequency: 1min
+time: 18:30
+Validity: Good
+2017-10-31 18:30:42,809 - MainThread - task - INFO - The frequency of this task is 
+2017-10-31 18:30:42,809 - MainThread - task - INFO - Created a Task
+filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task2.py
+frequency: 
+time: 09:45
+Validity: Invaild frequency: 
+2017-10-31 18:30:42,809 - MainThread - task - INFO - The frequency of this task is 
+2017-10-31 18:30:42,809 - MainThread - task - INFO - Created a Task
+filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task2.py
+frequency: 
+time: *&^*&TDG
+Validity: Invaild time: *&^*&TDG
+2017-10-31 18:30:42,811 - MainThread - genericPreprocessor - INFO - Good tasks count: 3
+2017-10-31 18:30:42,811 - MainThread - genericPreprocessor - INFO - Invalid tasks count: 3
+2017-10-31 18:30:42,811 - MainThread - executor - INFO - Cleaning up old tasks
+2017-10-31 18:30:42,811 - MainThread - task - INFO - Task aborted!
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
+Execution scheduled: 2017-10-31 18:31:34.808000
+Thread: Thread-1_dummy_task1.py
+2017-10-31 18:30:42,811 - MainThread - task - INFO - Task aborted!
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task2.py
+Execution scheduled: 2017-11-01 17:17:00
+Thread: Thread-2_dummy_task2.py
+2017-10-31 18:30:42,811 - MainThread - task - INFO - Task aborted!
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task3.py
+Execution scheduled: 2017-10-31 18:30:34.811000
+Thread: Thread-4_dummy_task3.py
+2017-10-31 18:30:42,811 - Thread-10_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:02
+2017-10-31 18:30:42,812 - Thread-11_dummy_task2.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task2.py: 22:46:18
+2017-10-31 18:30:42,812 - MainThread - genericPostprocessor - INFO - Start postprocessing
+2017-10-31 18:30:42,812 - Thread-13_dummy_task3.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task3.py: 0:00:02
+2017-10-31 18:30:42,812 - dummy_task1.py_monitor - metricManager - INFO - Assigned monitor manager to task: dummy_task1.py
+2017-10-31 18:30:42,813 - dummy_task2.py_monitor - metricManager - INFO - Assigned monitor manager to task: dummy_task2.py
+2017-10-31 18:30:42,813 - MainThread - notifier - INFO - Notifying the receive of tasks from the input file to Slack
+2017-10-31 18:30:42,813 - dummy_task3.py_monitor - metricManager - INFO - Assigned monitor manager to task: dummy_task3.py
+2017-10-31 18:30:42,815 - MainThread - notifier - INFO - Sending message to Slack: Below are the summary of the new tasks assigned to the dispatcher to channel: risk and member: kcheng
+2017-10-31 18:30:43,101 - MainThread - genericPostprocessor - INFO - Finished postprocessing
+2017-10-31 18:30:44,813 - Thread-10_dummy_task1.py - task - INFO - Executing Task...
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
+PID: 11984
+Execution scheduled: 2017-10-31 18:30:44.809000
+Thread: Thread-10_dummy_task1.py
+2017-10-31 18:30:44,815 - Thread-13_dummy_task3.py - task - INFO - Executing Task...
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task3.py
+PID: 7900
+Execution scheduled: 2017-10-31 18:30:44.810000
+Thread: Thread-13_dummy_task3.py
+2017-10-31 18:30:45,217 - dummy_task3.py_monitor - metricManager - INFO - Recording the usages for process pid=7900
+2017-10-31 18:30:45,217 - dummy_task1.py_monitor - metricManager - INFO - Recording the usages for process pid=11984
+2017-10-31 18:30:46,408 - Thread-10_dummy_task1.py - task - INFO - The task ended unexpectedly...
+2017-10-31 18:30:46,408 - Thread-10_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:58
+2017-10-31 18:30:46,426 - dummy_task1.py_monitor - metricManager - INFO - Process pid=11984 ended. Usages for this run is recorded
+2017-10-31 18:30:46,426 - dummy_task1.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task1.py, pid=11984
+2017-10-31 18:30:46,858 - dummy_task1.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_18_31_44_dummy_task1.py_11984.png
+2017-10-31 18:30:46,859 - dummy_task1.py_monitor - notifier - INFO - Sending message to Slack: Task is INTERRUPTED. Please investigate. to channel: risk and member: kcheng
+2017-10-31 18:31:44,430 - Thread-10_dummy_task1.py - task - INFO - Executing Task...
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
+PID: 4448
+Execution scheduled: 2017-10-31 18:31:44.809000
+Thread: Thread-10_dummy_task1.py
+2017-10-31 18:31:44,832 - dummy_task1.py_monitor - metricManager - INFO - Recording the usages for process pid=4448
+2017-10-31 18:31:46,000 - Thread-10_dummy_task1.py - task - INFO - The task ended unexpectedly...
+2017-10-31 18:31:46,000 - Thread-10_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:58
+2017-10-31 18:31:46,036 - dummy_task1.py_monitor - metricManager - INFO - Process pid=4448 ended. Usages for this run is recorded
+2017-10-31 18:31:46,036 - dummy_task1.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task1.py, pid=4448
+2017-10-31 18:31:46,466 - dummy_task1.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_18_32_44_dummy_task1.py_4448.png
+2017-10-31 18:31:46,467 - dummy_task1.py_monitor - notifier - INFO - Sending message to Slack: Task is INTERRUPTED. Please investigate. to channel: risk and member: kcheng
+2017-10-31 18:31:47,786 - dummy_task3.py_monitor - metricManager - INFO - Process pid=8240 ended. Usages for this run is recorded
+2017-10-31 18:31:47,788 - dummy_task3.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task3.py, pid=8240
+2017-10-31 18:31:48,286 - dummy_task3.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_18_35_34_dummy_task3.py_8240.png
+2017-10-31 18:31:48,289 - dummy_task3.py_monitor - notifier - INFO - Sending message to Slack: Task is finished to channel: risk and member: kcheng
+2017-10-31 18:31:57,443 - Thread-13_dummy_task3.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task3.py: 0:01:00
+2017-10-31 18:31:57,453 - dummy_task3.py_monitor - metricManager - INFO - Process pid=7900 ended. Usages for this run is recorded
+2017-10-31 18:31:57,453 - dummy_task3.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task3.py, pid=7900
+2017-10-31 18:31:57,904 - dummy_task3.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_18_32_57_dummy_task3.py_7900.png
+2017-10-31 18:31:57,905 - dummy_task3.py_monitor - notifier - INFO - Sending message to Slack: Task is finished to channel: risk and member: kcheng
+2017-10-31 18:32:44,020 - Thread-10_dummy_task1.py - task - INFO - Executing Task...
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
+PID: 1892
+Execution scheduled: 2017-10-31 18:32:44.809000
+Thread: Thread-10_dummy_task1.py
+2017-10-31 18:32:44,424 - dummy_task1.py_monitor - metricManager - INFO - Recording the usages for process pid=1892
+2017-10-31 18:32:45,546 - Thread-10_dummy_task1.py - task - INFO - The task ended unexpectedly...
+2017-10-31 18:32:45,546 - Thread-10_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:59
+2017-10-31 18:32:45,631 - dummy_task1.py_monitor - metricManager - INFO - Process pid=1892 ended. Usages for this run is recorded
+2017-10-31 18:32:45,631 - dummy_task1.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task1.py, pid=1892
+2017-10-31 18:32:46,042 - dummy_task1.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_18_33_44_dummy_task1.py_1892.png
+2017-10-31 18:32:46,043 - dummy_task1.py_monitor - notifier - INFO - Sending message to Slack: Task is INTERRUPTED. Please investigate. to channel: risk and member: kcheng
+2017-10-31 18:32:57,447 - Thread-13_dummy_task3.py - task - INFO - Executing Task...
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task3.py
+PID: 12516
+Execution scheduled: 2017-10-31 18:32:57.443000
+Thread: Thread-13_dummy_task3.py
+2017-10-31 18:32:57,848 - dummy_task3.py_monitor - metricManager - INFO - Recording the usages for process pid=12516
+2017-10-31 18:33:44,568 - Thread-10_dummy_task1.py - task - INFO - Executing Task...
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
+PID: 9728
+Execution scheduled: 2017-10-31 18:33:44.809000
+Thread: Thread-10_dummy_task1.py
+2017-10-31 18:33:44,969 - dummy_task1.py_monitor - metricManager - INFO - Recording the usages for process pid=9728
+2017-10-31 18:33:46,114 - Thread-10_dummy_task1.py - task - INFO - The task ended unexpectedly...
+2017-10-31 18:33:46,114 - Thread-10_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:58
+2017-10-31 18:33:46,177 - dummy_task1.py_monitor - metricManager - INFO - Process pid=9728 ended. Usages for this run is recorded
+2017-10-31 18:33:46,177 - dummy_task1.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task1.py, pid=9728
+2017-10-31 18:33:46,591 - dummy_task1.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_18_34_44_dummy_task1.py_9728.png
+2017-10-31 18:33:46,592 - dummy_task1.py_monitor - notifier - INFO - Sending message to Slack: Task is INTERRUPTED. Please investigate. to channel: risk and member: kcheng
+2017-10-31 18:34:09,012 - Thread-13_dummy_task3.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task3.py: 0:01:00
+2017-10-31 18:34:09,144 - dummy_task3.py_monitor - metricManager - INFO - Process pid=12516 ended. Usages for this run is recorded
+2017-10-31 18:34:09,144 - dummy_task3.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task3.py, pid=12516
+2017-10-31 18:34:09,592 - dummy_task3.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_18_35_09_dummy_task3.py_12516.png
+2017-10-31 18:34:09,592 - dummy_task3.py_monitor - notifier - INFO - Sending message to Slack: Task is finished to channel: risk and member: kcheng
+2017-10-31 18:34:44,138 - Thread-10_dummy_task1.py - task - INFO - Executing Task...
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
+PID: 12872
+Execution scheduled: 2017-10-31 18:34:44.809000
+Thread: Thread-10_dummy_task1.py
+2017-10-31 18:34:44,539 - dummy_task1.py_monitor - metricManager - INFO - Recording the usages for process pid=12872
+2017-10-31 18:34:45,677 - Thread-10_dummy_task1.py - task - INFO - The task ended unexpectedly...
+2017-10-31 18:34:45,677 - Thread-10_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:59
+2017-10-31 18:34:45,749 - dummy_task1.py_monitor - metricManager - INFO - Process pid=12872 ended. Usages for this run is recorded
+2017-10-31 18:34:45,749 - dummy_task1.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task1.py, pid=12872
+2017-10-31 18:34:46,160 - dummy_task1.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_18_35_44_dummy_task1.py_12872.png
+2017-10-31 18:34:46,161 - dummy_task1.py_monitor - notifier - INFO - Sending message to Slack: Task is INTERRUPTED. Please investigate. to channel: risk and member: kcheng
+2017-10-31 18:35:09,016 - Thread-13_dummy_task3.py - task - INFO - Executing Task...
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task3.py
+PID: 13284
+Execution scheduled: 2017-10-31 18:35:09.012000
+Thread: Thread-13_dummy_task3.py
+2017-10-31 18:35:09,417 - dummy_task3.py_monitor - metricManager - INFO - Recording the usages for process pid=13284
+2017-10-31 18:35:44,703 - Thread-10_dummy_task1.py - task - INFO - Executing Task...
+Filename: C:\Users\kcheng\PycharmProjects\first_project\dummy_task1.py
+PID: 12944
+Execution scheduled: 2017-10-31 18:35:44.809000
+Thread: Thread-10_dummy_task1.py
+2017-10-31 18:35:45,105 - dummy_task1.py_monitor - metricManager - INFO - Recording the usages for process pid=12944
+2017-10-31 18:35:46,259 - Thread-10_dummy_task1.py - task - INFO - The task ended unexpectedly...
+2017-10-31 18:35:46,259 - Thread-10_dummy_task1.py - task - INFO - Remaining time until the next scheduled iteration for task dummy_task1.py: 0:00:58
+2017-10-31 18:35:46,311 - dummy_task1.py_monitor - metricManager - INFO - Process pid=12944 ended. Usages for this run is recorded
+2017-10-31 18:35:46,312 - dummy_task1.py_monitor - metricManager - INFO - Added usgaes to dict for task dummy_task1.py, pid=12944
+2017-10-31 18:35:46,782 - dummy_task1.py_monitor - metricManager - INFO - Figure is saved to ../2017_10_31_18_36_44_dummy_task1.py_12944.png
+2017-10-31 18:35:46,785 - dummy_task1.py_monitor - notifier - INFO - Sending message to Slack: Task is INTERRUPTED. Please investigate. to channel: risk and member: kcheng
